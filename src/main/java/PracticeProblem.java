@@ -19,7 +19,7 @@ public class PracticeProblem {
 	public static void q2() {
 		Scanner scanner=new Scanner(System.in);
 		char   b;
-		System.out.print("input a word:");
+		System.out.print("Input a word: ");
 		b=scanner.next().charAt(2);
 		System.out.println(b);
 
@@ -30,9 +30,9 @@ public class PracticeProblem {
 		Scanner scanner=new Scanner(System.in);
 		String a;
 		char b;
-		System.out.print("Input a word:");
+		System.out.print("Input a word: ");
 		b=scanner.next().charAt(1);
-		System.out.println("The second character user entered was:"+(b));
+		System.out.println("The second character user entered was: "+(b));
 
 
 		//Write question 3 code here
@@ -42,7 +42,7 @@ public class PracticeProblem {
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("Input a number:");
         int a=scanner.nextInt();
-		System.out.println("Your number plus 1 is"+(a+1));
+		System.out.println(" Your number plus 1 is: "+(a+1));
 		//Write question 4 code here
 	}
 
@@ -51,7 +51,7 @@ public class PracticeProblem {
 	    System.out.print("Input a letter:");
 		String a=scanner.nextLine();
         char a1=a.charAt(0);
-		System.out.print("Input another letter:");
+		System.out.print(" Input another letter: ");
 		String b=scanner.nextLine();
 		char b2=b.charAt(0);
 		System.out.println(a1+b2);
